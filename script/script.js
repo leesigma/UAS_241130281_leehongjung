@@ -22,7 +22,17 @@ $(document).ready(function) {
             total += price * quantity;
         };
         kode diskon tidak valid <br>
-        <strong>total bayar:$${totalOriginal.toFixed</strong>
+        <strong>total bayar:$${totalOriginal.toFixed(2)}</strong>
+        ;
+        resultDisplay.html(resultHTML).show();
+        
+
+
+        $("#reset-btn").on("click",function(){
+            $("#order-form")[0].reset();
+            $(".quantity").text("0");
+            $("#result-display").hide().html("");
+        })
         
 };
     
