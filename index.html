@@ -49,8 +49,54 @@
             </div>
             <div class="price" data-price="85">$<span>85</span></div>
           </div>
-          
+          <div class="product-list">
+            <div class="product-item">
+              <img src="images/produk3.png" width="200"/>
+              <div class="product-details">
+                <h3>produk 1</h3>
+                <p>one size</p>
+                <p class="color">blue</p>
+              </div>
+              <div class="quantity-selector">
+                <button class="quantity-btn minus-btn">-</button>
+                <span class="quantity">0</span>
+                <button class="quanity-btn plus-btn">+</button>
+              </div>
+              <div class="price" data-price="150">$<span>150</span></div>
+            </div>
+            <div class="product-list">
+              <div class="product-item">
+                <img src="images/produk4.jpg" width="200"/>
+                <div class="product-details">
+                  <h3>produk 1</h3>
+                  <p>one size</p>
+                  <p class="color">blue</p>
+                </div>
+                <div class="quantity-selector">
+                  <button class="quantity-btn minus-btn">-</button>
+                  <span class="quantity">0</span>
+                  <button class="quanity-btn plus-btn">+</button>
+                </div>
+                <div class="price" data-price="60">$<span>60</span></div>
+              </div>
+          </div>
+    <div class="order-summary">
+      <h2>Order Summary</h2>
+      <form id="order-form">
+        <input type="text" id="name" placeholder="Name" required />
+        <input type="text" id="email" placeholder="Email" required />
+        <input type="text" id="phone" placeholder="Phone" required />
+
+        <button type="reset" id="reset-btn" class="btn reset-btn">
+          Reset
+        </button>
+        <button type="apply" id="apply-btn" class="btn apply-btn">
+          Apply
+        </button>
+      </form>
+      <div id="result-display" class="result-display">
       </div>
+    </div>
   </main>
   </body>
   <script src="./script/jquery-3.7.1.min.js"></script>
