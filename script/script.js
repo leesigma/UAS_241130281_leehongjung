@@ -33,7 +33,7 @@ $(document).ready(function) {
             $(".quantity").text("0");
             $("#result-display").hide().html("");
         })
-        
+        $("@apply-btn").on("click",function())
 };
     
     
