@@ -38,5 +38,31 @@ main{
     gap: 20px;
 }
 .product-item{
-    
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    border: 1px solid lightgreen;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.product-details{
+    flex-grow: 1;
+}
+.product-details h3{
+    margin: 5px;
+    font-size: 1rem;
+}
+.product-details p{
+    margin: 0;
+    font-size: 0.9rem;
+    color: black;
+}
+
+.product-details .color{
+    text-transform: capitalize;
+}
+
+.quantity-selector{
+    display: flex;
 }
